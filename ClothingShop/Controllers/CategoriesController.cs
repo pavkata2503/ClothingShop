@@ -17,7 +17,11 @@ namespace ClothingShop.Controllers
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Categories.ToListAsync());
+            
+
+            var categories = await _context.Categories.Include(c=> c.ClothingItems).ToListAsync();
+            return View(categories);
+            //return View(await _context.Categories.ToListAsync());
         }
 
         // GET: Categories/Details/5

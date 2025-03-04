@@ -1,6 +1,7 @@
 ﻿using ClothingShop.Data;
 using ClothingShop.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClothingShop.Controllers
@@ -47,8 +48,18 @@ namespace ClothingShop.Controllers
         // GET: OrderItems/Create
         public IActionResult Create()
         {
-            ViewData["OrderId"] = _context.Orders.ToList();
-            ViewData["ClothingItemId"] = _context.ClothingItems.ToList();
+            ViewBag.OrderId = new SelectList(_context.Orders.Select(o => new SelectListItem
+            {
+                Value = o.Id.ToString(),
+                Text = o.OrderDate.ToString("MM/dd/yyyy") // or any other property you want to display
+            }).ToList(), "Value", "Text");
+
+            ViewBag.ClothingItemId = new SelectList(_context.ClothingItems.Select(ci => new SelectListItem
+            {
+                Value = ci.Id.ToString(),
+                Text = ci.Name
+            }).ToList(), "Value", "Text");
+
             return View();
         }
 
@@ -57,14 +68,23 @@ namespace ClothingShop.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Quantity,Price,OrderId,ClothingItemId")] OrderItem orderItem)
         {
-            if (ModelState.IsValid)
-            {
                 _context.Add(orderItem);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["OrderId"] = _context.Orders.ToList();
-            ViewData["ClothingItemId"] = _context.ClothingItems.ToList();
+            
+
+            ViewBag.OrderId = new SelectList(_context.Orders.Select(o => new SelectListItem
+            {
+                Value = o.Id.ToString(),
+                Text = o.OrderDate.ToString("MM/dd/yyyy")
+            }).ToList(), "Value", "Text", orderItem.OrderId);
+
+            ViewBag.ClothingItemId = new SelectList(_context.ClothingItems.Select(ci => new SelectListItem
+            {
+                Value = ci.Id.ToString(),
+                Text = ci.Name
+            }).ToList(), "Value", "Text", orderItem.ClothingItemId);
+
             return View(orderItem);
         }
 
@@ -81,8 +101,19 @@ namespace ClothingShop.Controllers
             {
                 return NotFound();
             }
-            ViewData["OrderId"] = _context.Orders.ToList();
-            ViewData["ClothingItemId"] = _context.ClothingItems.ToList();
+
+            ViewBag.OrderId = new SelectList(_context.Orders.Select(o => new SelectListItem
+            {
+                Value = o.Id.ToString(),
+                Text = o.OrderDate.ToString("MM/dd/yyyy")
+            }).ToList(), "Value", "Text", orderItem.OrderId);
+
+            ViewBag.ClothingItemId = new SelectList(_context.ClothingItems.Select(ci => new SelectListItem
+            {
+                Value = ci.Id.ToString(),
+                Text = ci.Name
+            }).ToList(), "Value", "Text", orderItem.ClothingItemId);
+
             return View(orderItem);
         }
 
@@ -116,8 +147,19 @@ namespace ClothingShop.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["OrderId"] = _context.Orders.ToList();
-            ViewData["ClothingItemId"] = _context.ClothingItems.ToList();
+
+            ViewBag.OrderId = new SelectList(_context.Orders.Select(o => new SelectListItem
+            {
+                Value = o.Id.ToString(),
+                Text = o.OrderDate.ToString("MM/dd/yyyy")
+            }).ToList(), "Value", "Text", orderItem.OrderId);
+
+            ViewBag.ClothingItemId = new SelectList(_context.ClothingItems.Select(ci => new SelectListItem
+            {
+                Value = ci.Id.ToString(),
+                Text = ci.Name
+            }).ToList(), "Value", "Text", orderItem.ClothingItemId);
+
             return View(orderItem);
         }
 

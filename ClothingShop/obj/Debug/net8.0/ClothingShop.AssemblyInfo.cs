@@ -11,12 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-ClothingShop-ea05706c-9ed7-420f-9e1d-ba980ae5852c")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClothingShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b51d028ef0dd264a3dcfa555e7a941e6c3ce71d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a283624b68c9d8f97918ae0faba75def26183c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClothingShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClothingShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

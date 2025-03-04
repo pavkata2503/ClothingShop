@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\ClothingShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ClothingShop.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ClothingShop.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ClothingShop.u19ebw05l3.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\ClothingShop\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\ClothingShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClothingShop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClothingShop.Microsoft.AspNetCore.StaticWebAssets.props",

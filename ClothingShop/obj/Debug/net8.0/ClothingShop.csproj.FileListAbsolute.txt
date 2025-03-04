@@ -3,7 +3,6 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\Cloth
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.AssemblyInfoInputs.cache
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.AssemblyInfo.cs
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.csproj.CoreCompileInputs.cache
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.RazorAssemblyInfo.cache
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.RazorAssemblyInfo.cs
@@ -23,7 +22,6 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\Cloth
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -36,7 +34,6 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\Cloth
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -49,7 +46,6 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\Cloth
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -58,13 +54,10 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\Cloth
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -123,12 +116,7 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\Cloth
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\staticwebassets\msbuild.ClothingShop.Microsoft.AspNetCore.StaticWebAssets.props
@@ -145,3 +133,9 @@ C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\Cloth
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.pdb
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ClothingShop.genruntimeconfig.cache
 C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\ref\ClothingShop.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\ClothingShop.staticwebassets.endpoints.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\staticwebassets\msbuild.ClothingShop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\pavka\OneDrive\Documents\Програвиране C#\ClothingShop\ClothingShop\ClothingShop\bin\Debug\net8.0\Stripe.net.dll

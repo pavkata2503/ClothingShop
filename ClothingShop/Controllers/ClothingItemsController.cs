@@ -1,6 +1,7 @@
 ﻿using ClothingShop.Data;
 using ClothingShop.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClothingShop.Controllers
@@ -47,8 +48,9 @@ namespace ClothingShop.Controllers
         // GET: ClothingItems/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = _context.Categories.ToList();
-            ViewData["BrandId"] = _context.Brands.ToList();
+            // Convert the list of Categories to a SelectList
+            ViewBag.CategoryId = new SelectList(_context.Categories, "Id", "Name");
+            ViewBag.BrandId = new SelectList(_context.Brands, "Id", "Name");
             return View();
         }
 
@@ -57,16 +59,17 @@ namespace ClothingShop.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Quantity,ImageUrl,Size,Gender,CategoryId,BrandId")] ClothingItem clothingItem)
         {
-            if (ModelState.IsValid)
-            {
                 _context.Add(clothingItem);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["CategoryId"] = _context.Categories.ToList();
-            ViewData["BrandId"] = _context.Brands.ToList();
-            return View(clothingItem);
+            
+
+            // Convert categories and brands to SelectList for dropdowns
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", clothingItem.CategoryId);
+            ViewData["BrandId"] = new SelectList(_context.Brands, "Id", "Name", clothingItem.BrandId);
+
         }
+
 
         // GET: ClothingItems/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -81,8 +84,9 @@ namespace ClothingShop.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = _context.Categories.ToList();
-            ViewData["BrandId"] = _context.Brands.ToList();
+            // Convert the list of Categories to a SelectList
+            ViewBag.CategoryId = new SelectList(_context.Categories, "Id", "Name", clothingItem.CategoryId);
+            ViewBag.BrandId = new SelectList(_context.Brands, "Id", "Name", clothingItem.BrandId);
             return View(clothingItem);
         }
 

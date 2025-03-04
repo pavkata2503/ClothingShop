@@ -1,6 +1,7 @@
 ﻿using ClothingShop.Data;
 using ClothingShop.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClothingShop.Controllers
@@ -47,7 +48,11 @@ namespace ClothingShop.Controllers
         // GET: Orders/Create
         public IActionResult Create()
         {
-            ViewData["CustomerId"] = _context.Customers.ToList();
+            ViewBag.CustomerId = new SelectList(_context.Customers.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.FirstName + " " + c.LastName
+            }).ToList(), "Value", "Text");
             return View();
         }
 
@@ -56,14 +61,15 @@ namespace ClothingShop.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,OrderDate,TotalAmount,Status,CustomerId")] Order order)
         {
-            if (ModelState.IsValid)
-            {
                 _context.Add(order);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["CustomerId"] = _context.Customers.ToList();
-            return View(order);
+
+            ViewBag.CustomerId = new SelectList(_context.Customers.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.FirstName + " " + c.LastName
+            }).ToList(), "Value", "Text", order.CustomerId);
         }
 
         // GET: Orders/Edit/5
@@ -113,7 +119,12 @@ namespace ClothingShop.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerId"] = _context.Customers.ToList();
+
+            ViewBag.CustomerId = new SelectList(_context.Customers.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.FirstName + " " + c.LastName
+            }).ToList(), "Value", "Text", order.CustomerId);
             return View(order);
         }
 
