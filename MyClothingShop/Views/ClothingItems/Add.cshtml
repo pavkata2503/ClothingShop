@@ -1,0 +1,50 @@
+﻿@using MyClothingShop.Models.Enums
+@using System.ComponentModel.DataAnnotations;
+@model MyClothingShop.Models.ClothingItem
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+<div class="container">
+	<h2>Създай учебен материал</h2>
+
+	<form method="post" asp-action="Add" asp-controller="ClothingItems" enctype="multipart/form-data">
+		<div class="form-group">
+			<label>Заглавие</label>
+			<input asp-for="Name" class="form-control" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>Качи файл</label>
+			<input type="file" asp-for="FileUpload" class="form-control" />
+			<span asp-validation-for="FileUpload" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>Размер</label>
+			<select asp-for="Size" asp-items="Html.GetEnumSelectList<Size>()" class="form-control">
+				<option value="">Избери размер</option>
+			</select>
+			<span asp-validation-for="Size" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>ImageUrl</label>
+			<input asp-for="ImageUrl" class="form-control" />
+			<span asp-validation-for="ImageUrl" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>Описание</label>
+			<textarea asp-for="Description" class="form-control" rows="4"></textarea>
+			<span asp-validation-for="Description" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label>Пари</label>
+			<input asp-for="Price" class="form-control" />
+			<span asp-validation-for="Price" class="text-danger"></span>
+		</div>
+		<button style="background:orange;" type="submit" class="btn mb-3">Създай</button>
+	</form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>

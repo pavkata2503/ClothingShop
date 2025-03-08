@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lD6BYPOtCDW/AKfTgCw20yvQTCFpi8ukQORj8amBqC4=",
+  "Hash": "dPmHkXWkDVyUbgZ+xyjLNNoVUmYpz1E6E3t8HVJRNyk=",
   "Source": "MyClothingShop",
   "BasePath": "_content/MyClothingShop",
   "Mode": "Default",
@@ -1319,6 +1319,48 @@
       "OriginalItemSpec": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyClothingShop.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\index.css",
+      "SourceId": "MyClothingShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\",
+      "BasePath": "_content/MyClothingShop",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3pghkdomvd",
+      "Integrity": "OanCEK5qa96uHyCopXzen+chE0qnGYPKdUguyUKmXnk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\items.css",
+      "SourceId": "MyClothingShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\",
+      "BasePath": "_content/MyClothingShop",
+      "RelativePath": "css/items#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ro1m6t0f3e",
+      "Integrity": "9TMR6b+WrRatC+43LJp1MNs2ozHbKrEq8MqIw1zcp3c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\items.css"
+    },
+    {
       "Identity": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\site.css",
       "SourceId": "MyClothingShop",
       "SourceType": "Discovered",
@@ -2580,6 +2622,170 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/index.3pghkdomvd.css",
+      "AssetFile": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OanCEK5qa96uHyCopXzen+chE0qnGYPKdUguyUKmXnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 20:26:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3pghkdomvd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OanCEK5qa96uHyCopXzen+chE0qnGYPKdUguyUKmXnk="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OanCEK5qa96uHyCopXzen+chE0qnGYPKdUguyUKmXnk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 20:26:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OanCEK5qa96uHyCopXzen+chE0qnGYPKdUguyUKmXnk="
+        }
+      ]
+    },
+    {
+      "Route": "css/items.css",
+      "AssetFile": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\items.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TMR6b+WrRatC+43LJp1MNs2ozHbKrEq8MqIw1zcp3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 20:38:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TMR6b+WrRatC+43LJp1MNs2ozHbKrEq8MqIw1zcp3c="
+        }
+      ]
+    },
+    {
+      "Route": "css/items.ro1m6t0f3e.css",
+      "AssetFile": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\items.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TMR6b+WrRatC+43LJp1MNs2ozHbKrEq8MqIw1zcp3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Mar 2025 20:38:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ro1m6t0f3e"
+        },
+        {
+          "Name": "label",
+          "Value": "css/items.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TMR6b+WrRatC+43LJp1MNs2ozHbKrEq8MqIw1zcp3c="
+        }
+      ]
+    },
     {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\site.css",
@@ -9743,7 +9949,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 19:03:02 GMT"
+          "Value": "Sat, 08 Mar 2025 20:37:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9780,7 +9986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 19:03:02 GMT"
+          "Value": "Sat, 08 Mar 2025 20:37:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9817,7 +10023,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 19:03:02 GMT"
+          "Value": "Sat, 08 Mar 2025 20:37:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9862,7 +10068,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 19:03:02 GMT"
+          "Value": "Sat, 08 Mar 2025 20:37:26 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MyClothingShop.v0p3w0xa9s.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\items.css",
+      "PackagePath": "staticwebassets\\css\\items.css"
+    },
+    {
       "Id": "C:\\Users\\pavka\\OneDrive\\Documents\\Програвиране C#\\ClothingShop\\ClothingShop\\MyClothingShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

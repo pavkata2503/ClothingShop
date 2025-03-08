@@ -1,5 +1,6 @@
 ﻿using MyClothingShop.Models.Enums;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyClothingShop.Models
 {
@@ -13,6 +14,10 @@ namespace MyClothingShop.Models
         public double Price { get; set; }
         [EnumDataType(typeof(Size))]
         public Size Size { get; set; }
+        //Upload File
+        [NotMapped]
+        public IFormFile? FileUpload { get; set; }
+        public string? FileTitle { get; set; }
 
     }
 }
