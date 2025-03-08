@@ -1,4 +1,4 @@
-namespace ClothingShop.Models
+namespace Learning_Content_Models.Models
 {
     public class ErrorViewModel
     {

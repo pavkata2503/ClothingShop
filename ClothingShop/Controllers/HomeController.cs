@@ -1,8 +1,8 @@
-using ClothingShop.Models;
+using Learning_Content_Models.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ClothingShop.Controllers
+namespace Learning_Content_Models.Controllers
 {
     public class HomeController : Controller
     {
